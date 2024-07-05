@@ -1,0 +1,13 @@
+name: SchwabbiesShinyKalender
+title: SchwabbiesShinyKalender
+username: o5sibg-soeren0schwabbauer
+account: o5sibg-soeren0schwabbauer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12277597
+bundleId:
+url: https://o5sibg-soeren0schwabbauer.shinyapps.io/SchwabbiesShinyKalender/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|.secrets/7a6077d23f6776ccc63f8f70bc12b214_schwabbauer.soeren@gmail.com|.secrets/c13dc354db9600c8cd9b2bd868d1bf25_schwabbauer.soeren@gmail.com|datatable_kalender.R|feiertage.rds|master.R|prepare_kalender.R|scrape_feiertage.R

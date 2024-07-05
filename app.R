@@ -69,9 +69,10 @@ server <- function(input, output, session) {
   # Login UI
   output$login_ui <- renderUI({
     if (!logged_in()) {
-      wellPanel(
-        textInput("pw_text", "Enter Login Password"),
-        actionButton("pw_confirm", "Login", icon = icon("sign-in-alt"))
+      fluidPage(
+      column(3, passwordInput("pw_text", "Enter Login Password", placeholder = "Passwort eingeben")),
+      column(2, actionButton("pw_confirm", "Login", icon = icon("sign-in-alt")))
+      
       )
     }
   })
