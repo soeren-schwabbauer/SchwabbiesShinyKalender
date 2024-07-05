@@ -52,7 +52,7 @@ prepare_kalender <- function(termine, feiertage_df){
     left_join(feiertage_df, by = "Datum") %>%
     
     # KW ganz ans Ende
-    select(Datum, Tag, Privat, FMA, Uni, FMA, Stmyr, Karo, Geburtstage, Feiertag, KW)
+    select(Datum, Tag, Privat, FMA, Uni, FMA, Karo, Geburtstage, Feiertag, KW)
   
   # output ---------------------------------------------------------------------
   return(kalender)
